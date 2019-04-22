@@ -1,0 +1,22 @@
+/*
+Theme Name:     Highlight Child
+Theme URI:      http: //example.com/
+Description:    Child theme for the Twenty Ten theme 
+Author:         Your name here
+Author URI:     http: //example.com/about/
+Template:       Highlight
+Version:        0.1.0
+*/
+
+/*
+Theme Name: Twenty Ten Child
+Description: Child theme for the Twenty Ten theme 
+Author: Your name here
+Template: twentyten
+*/
+
+@import url("../style.css");
+
+#site-title a {
+    color: #009900;
+}
