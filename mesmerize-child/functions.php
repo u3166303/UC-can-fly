@@ -194,7 +194,7 @@ function highlight_get_footer_copyright($copyright, $preview_atts)
     
     
     
-    $copyrightText = __('This website was produced by Maggie and Yikai in the Faculty of Arts & Design, University of Canberra. \n
+    $copyrightText = __('This website was produced by Maggie and Yikai in the Faculty of Arts & Design, University of Canberra. <br>
 The content is extracted from the Tocumwal Houses Archive in the %s', '[ACT Heritage Library Manuscripts Collection]');
     
      
