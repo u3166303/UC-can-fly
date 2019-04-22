@@ -193,6 +193,13 @@ function highlight_get_footer_copyright($copyright, $preview_atts)
 {
     
     $copyrightText = __('Built using WordPress and the %s', 'highlight');
+    
+    $copyrightText = __('This website was produced by students in the Faculty of Arts & Design, University of Canberra. 
+The content is extracted from the Tocumwal Houses Archive in the %s', '[ACT Heritage Library Manuscripts Collection]');
+    
+     
+        
+        
     $copyrightText = sprintf($copyrightText, '<a target="_blank" href="%1$s" class="mesmerize-theme-link">Highlight Theme</a>');
     
     $copyrightText = sprintf($copyrightText, 'https://extendthemes.com/go/built-with-highlight/');
