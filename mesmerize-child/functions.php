@@ -192,7 +192,7 @@ function highlight_info_page_tabs($tabs)
 function highlight_get_footer_copyright($copyright, $preview_atts)
 {
     
-    $copyrightText = __('Built using WordPress and the %s', 'highlight');
+    
     
     $copyrightText = __('This website was produced by students in the Faculty of Arts & Design, University of Canberra. 
 The content is extracted from the Tocumwal Houses Archive in the %s', '[ACT Heritage Library Manuscripts Collection]');
@@ -200,9 +200,9 @@ The content is extracted from the Tocumwal Houses Archive in the %s', '[ACT Heri
      
         
         
-    $copyrightText = sprintf($copyrightText, '<a target="_blank" href="%1$s" class="mesmerize-theme-link">Highlight Theme</a>');
+    $copyrightText = sprintf($copyrightText, '<a target="_blank" href="%1$s" class="mesmerize-theme-link">[ACT Heritage Library Manuscripts Collection]</a>');
     
-    $copyrightText = sprintf($copyrightText, 'https://extendthemes.com/go/built-with-highlight/');
+    $copyrightText = sprintf($copyrightText, 'https://www.library.act.gov.au/find/history/search/Manuscript_Collections/hmss_0074_tocumwal_houses_archive');
     
     $copyright = '<p ' . $preview_atts . ' class="copyright">&copy;&nbsp;' . "&nbsp;" . date_i18n(__('Y', 'highlight')) . '&nbsp;' . esc_html(get_bloginfo('name')) . '.&nbsp;' . wp_kses_post($copyrightText) . '</p>';
     
