@@ -1,8 +1,8 @@
 /*
 Theme Name:     mesmerize Child
 Theme URI:      http: //example.com/
-Description:    Child theme for the Twenty Ten theme 
-Author:         Your name here
+Description:    Child theme for the Mesmerize
+Author:         Yikai
 Author URI:     http: //example.com/about/
 Template:       mesmerize
 Version:        0.1.0
@@ -10,9 +10,9 @@ Version:        0.1.0
 
 /*
 Theme Name: mesmerize Child
-Description: Child theme for the Twenty Ten theme 
-Author: Your name here
-Template: twentyten
+Description: Child theme for the Mesmerize
+Author: Yikai
+Template: Mesmerize
 */
 
 @import url("../mesmerize/style.css");
